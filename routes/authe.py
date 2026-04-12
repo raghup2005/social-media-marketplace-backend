@@ -1,7 +1,7 @@
 from fastapi import FastAPI,Depends,HTTPException,APIRouter
 from sqlmodel import SQLModel,select
 from auth import *
-from database import *
+from database import Session
 
 
 
