@@ -5,18 +5,7 @@ A production-ready backend service built using **FastAPI**, designed to power a 
 This project demonstrates industry-standard backend practices including **secure authentication, modular architecture, database design, and scalable API development**.
 
 
-##  Table of Contents
 
-* Overview
-* Features
-* Architecture
-* Tech Stack
-* Project Structure
-* Getting Started
-* API Documentation
-* Security
-* Future Enhancements
-* Author
 
 
 ## Overview
@@ -76,75 +65,10 @@ Client → API Routes → Services → Database (SQLModel)
 * **Schemas** → Data validation
 * **Dependencies** → Authentication & shared logic
 
----
 
-## Tech Stack
 
-| Layer     | Technology        |
-| --------- | ----------------- |
-| Framework | FastAPI           |
-| ORM       | SQLModel          |
-| Database  | SQLite            |
-| Auth      | JWT (python-jose) |
-| Hashing   | Passlib (Argon2)  |
-| Docs      | Swagger UI        |
 
----
 
-##  Project Structure
-social-marketplace/
-│
-├── app/
-│   ├── main.py              
-│   ├── core/               
-│   ├── db/                 
-│   ├── models/               
-│   ├── schemas/              
-│   ├── api/routes/           
-│   ├── services/            
-    ├── dependencies/         
-│
-├── .env
-├── requirements.txt
-├── README.md
-```
-
----
-
-##  Getting Started
-
-### 1. Clone Repository
-git clone https://github.com/your-username/social-marketplace.git
-cd social-marketplace
-```
-
----
-
-### 2. Setup Virtual Environment
-python -m venv .venv
-.venv\Scripts\activate
-```
-
----
-
-### 3. Install Dependencies
-
-pip install -r requirements.txt
-```
-
----
-
-### 4. Run Server
-uvicorn app.main:app --reload
-```
-
----
-
-### 5. API Docs
-http://127.0.0.1:8000/docs
-```
-
----
 
 ##  API Overview
 
