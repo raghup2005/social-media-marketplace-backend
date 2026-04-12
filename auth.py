@@ -27,5 +27,5 @@ def get_current_user(token: str, session=Depends(get_session)):
     payload = jwt.decode(token, "secret", algorithms=["HS256"])
     user = session.exec(select(User).where(User.email == payload.get("sub"))).first()
     if not user:
-        raise HTTPException(401, "Invalid user")
+        raise HTTPException(401, "invalid")
     return user
