@@ -150,12 +150,3 @@ Backend Developer (Aspiring)
 * Python | FastAPI | SQL
 * Passionate about scalable backend systems
 
----
-
-##  Support & Contribution
-
-If you find this project useful:
-
-* Star the repository
-* Fork and contribute
-* Build on top of it
