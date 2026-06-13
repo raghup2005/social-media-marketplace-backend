@@ -149,4 +149,7 @@ Backend Developer (Aspiring)
 
 * Python | FastAPI | SQL
 * Passionate about scalable backend systems
+## License
+
+This project is licensed under the MIT License.
 
